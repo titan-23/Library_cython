@@ -7,7 +7,7 @@
 
 ## [IntArray](https://github.com/titanium-22/Library_cython/blob/main/DataStructures/IntArray.pyx)
 int型の動的配列です。pythonの`list-like`な作りです。  
-`a[i], a[i] = v` よりも、`a.get(i), a.set(i, v)` の方が高速です。
+`a[i], a[i] = v` よりも `a.get(i), a.set(i, v)` の方が高速なことに注意してください。
 
 ## [UnionFind](https://github.com/titanium-22/Library_cython/blob/main/DataStructures/UnionFind.pyx)
 `UnionFind` です。
